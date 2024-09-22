@@ -1,0 +1,5 @@
+[build]
+  publish = "dist"
+
+[images]
+  remote_images = ["https://cdn.dummyjson.com/.*"]
