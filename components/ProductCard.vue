@@ -12,7 +12,7 @@
 			<div class="aspect-[1/1] relative overflow-hidden">
 				<NuxtImg :src="product.thumbnail" :alt="product.title" class="absolute w-full h-full top-0 left-0 object-cover object-center transition-transform group-hover:scale-105" loading="lazy" />
 			</div>
-			<div class="mb-5">
+			<div class="my-4">
 				<h3 class="mb-2 text-base font-normal">{{ product.title }}</h3>
 				<ProductPrice :price="product.price" :discountPercentage="product.discountPercentage" />
 			</div>
