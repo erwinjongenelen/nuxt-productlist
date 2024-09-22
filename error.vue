@@ -1,14 +1,14 @@
 <script setup>
-    defineProps(['error'])
+	defineProps(['error'])
 
-    const handleClearError = () => clearError({redirect: '/'})
+	const handleClearError = () => clearError({redirect: '/'})
 </script>
 
 <template>
-    <div>
-        <p>{{ error.statusCode }}</p>
-        <p>{{ error.message }}</p>
+	<div>
+		<p>{{ error.statusCode }}</p>
+		<p>{{ error.message }}</p>
 
-        <button @click="handleClearError">Back to home</button>
-    </div>
+		<button @click="handleClearError">Back to home</button>
+	</div>
 </template>
