@@ -1,4 +1,15 @@
-<script setup></script>
+<script setup>
+// SEO information
+useHead({
+	title: 'TechStore | Cart',
+	meta: [
+		{
+			name: 'description',
+			content: 'Cart - Fancy tech and gadgets!'
+		},
+	],
+})
+</script>
 
 <template>
 	<div class="py-10 md:py-20">
